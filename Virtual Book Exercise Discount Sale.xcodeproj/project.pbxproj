@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E2AAFE551E96B20F0080A487 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AAFE541E96B20F0080A487 /* main.cpp */; };
+		E2AAFE5D1E96B4B00080A487 /* Sale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AAFE5B1E96B4B00080A487 /* Sale.cpp */; };
+		E2AAFE601E96B52E0080A487 /* DiscountSale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2AAFE5E1E96B52E0080A487 /* DiscountSale.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E2AAFE511E96B20F0080A487 /* Virtual Book Exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Virtual Book Exercise"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AAFE511E96B20F0080A487 /* Virtual Book Exercise Discount Sale */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Virtual Book Exercise Discount Sale"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2AAFE541E96B20F0080A487 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E2AAFE5B1E96B4B00080A487 /* Sale.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sale.cpp; sourceTree = "<group>"; };
+		E2AAFE5C1E96B4B00080A487 /* Sale.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sale.hpp; sourceTree = "<group>"; };
+		E2AAFE5E1E96B52E0080A487 /* DiscountSale.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DiscountSale.cpp; sourceTree = "<group>"; };
+		E2AAFE5F1E96B52E0080A487 /* DiscountSale.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DiscountSale.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +55,7 @@
 		E2AAFE521E96B20F0080A487 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2AAFE511E96B20F0080A487 /* Virtual Book Exercise */,
+				E2AAFE511E96B20F0080A487 /* Virtual Book Exercise Discount Sale */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				E2AAFE541E96B20F0080A487 /* main.cpp */,
+				E2AAFE5B1E96B4B00080A487 /* Sale.cpp */,
+				E2AAFE5C1E96B4B00080A487 /* Sale.hpp */,
+				E2AAFE5E1E96B52E0080A487 /* DiscountSale.cpp */,
+				E2AAFE5F1E96B52E0080A487 /* DiscountSale.hpp */,
 			);
 			path = "Virtual Book Exercise";
 			sourceTree = "<group>";
@@ -65,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E2AAFE501E96B20F0080A487 /* Virtual Book Exercise */ = {
+		E2AAFE501E96B20F0080A487 /* Virtual Book Exercise Discount Sale */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2AAFE581E96B20F0080A487 /* Build configuration list for PBXNativeTarget "Virtual Book Exercise" */;
+			buildConfigurationList = E2AAFE581E96B20F0080A487 /* Build configuration list for PBXNativeTarget "Virtual Book Exercise Discount Sale" */;
 			buildPhases = (
 				E2AAFE4D1E96B20F0080A487 /* Sources */,
 				E2AAFE4E1E96B20F0080A487 /* Frameworks */,
@@ -77,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = "Virtual Book Exercise";
+			name = "Virtual Book Exercise Discount Sale";
 			productName = "Virtual Book Exercise";
-			productReference = E2AAFE511E96B20F0080A487 /* Virtual Book Exercise */;
+			productReference = E2AAFE511E96B20F0080A487 /* Virtual Book Exercise Discount Sale */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E2AAFE4C1E96B20F0080A487 /* Build configuration list for PBXProject "Virtual Book Exercise" */;
+			buildConfigurationList = E2AAFE4C1E96B20F0080A487 /* Build configuration list for PBXProject "Virtual Book Exercise Discount Sale" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2AAFE501E96B20F0080A487 /* Virtual Book Exercise */,
+				E2AAFE501E96B20F0080A487 /* Virtual Book Exercise Discount Sale */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2AAFE5D1E96B4B00080A487 /* Sale.cpp in Sources */,
+				E2AAFE601E96B52E0080A487 /* DiscountSale.cpp in Sources */,
 				E2AAFE551E96B20F0080A487 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +242,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2AAFE4C1E96B20F0080A487 /* Build configuration list for PBXProject "Virtual Book Exercise" */ = {
+		E2AAFE4C1E96B20F0080A487 /* Build configuration list for PBXProject "Virtual Book Exercise Discount Sale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2AAFE561E96B20F0080A487 /* Debug */,
@@ -239,13 +251,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2AAFE581E96B20F0080A487 /* Build configuration list for PBXNativeTarget "Virtual Book Exercise" */ = {
+		E2AAFE581E96B20F0080A487 /* Build configuration list for PBXNativeTarget "Virtual Book Exercise Discount Sale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2AAFE591E96B20F0080A487 /* Debug */,
 				E2AAFE5A1E96B20F0080A487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
